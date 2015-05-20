@@ -9,7 +9,6 @@ install:
   - ps: Install-Product node $env:nodejs_version
   # install modules
   - npm install --msvs_version=2013
-  - npm run pangyp-rebuild
 
 # Post-install test scripts.
 test_script:
